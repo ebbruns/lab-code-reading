@@ -11,11 +11,14 @@ public class Main
    */
   public static void 
     main (String[] args) 
+    /* hello world*/
   {
+    double n;
     java.io.PrintWriter pen = new java.io.PrintWriter (System.out, true);
-    for (int i = 0; i < 5; i++) 
+    for (int i = 1; i < 10; i++) 
       {
-        pen.println (i + " squared is " + MathUtils.square (i));
+        n = i/10.0;
+        pen.println (n + " squared is " + MathUtils.square (n));
       } // for
     pen.close ();
   } // main(String[])
